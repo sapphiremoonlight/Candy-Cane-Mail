@@ -1,0 +1,313 @@
+/* =========================
+   🎄 BOOKMAS – MOBILE OPTIMIZED
+========================= */
+
+/* 🎅 General reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#fffaf7, #f7ece5);
+  color: #3a1b0b;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* 🎁 Header */
+header {
+  background: linear-gradient(90deg, #b22222, #d94f4f);
+  padding: 1rem 1.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+header h1 {
+  font-family: 'Mountains of Christmas', serif;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+header h1 i {
+  color: #fff6d3;
+}
+
+header .logo img {
+  height: 50px;       /* adjust as needed */
+  width: auto;        /* keeps proportions */
+  display: block;
+}
+
+header nav {
+  margin-top: 0.3rem;
+}
+
+header nav a {
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+header nav a:hover {
+  color: #ffe08a;
+  transform: scale(1.1);
+}
+
+/* 🍬 Main Section */
+main {
+  width: 100%;
+  max-width: 1100px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+main h1 {
+  font-family: 'Mountains of Christmas', serif;
+  font-size: 2.2rem;
+  color: #b22222;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+main p.subtitle {
+  text-align: center;
+  font-style: italic;
+  color: #7a4b33;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+
+/* 🎁 Genre Filter */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.filter-bar button {
+  background: #b22222;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  flex: 1 1 auto;
+  min-width: 100px;
+  max-width: 140px;
+}
+
+.filter-bar button:hover {
+  background: #d94f4f;
+  box-shadow: 0 0 10px rgba(255, 220, 200, 0.6);
+}
+
+/* 📚 Book Cards */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  padding: 0 0.3rem;
+}
+
+.book-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;           /* ✅ ensures proportional scaling */
+  max-height: 250px;      /* ✅ limits vertical stretch */
+  object-fit: cover;
+  border-bottom: 3px solid #b22222;
+  display: block;
+}
+
+.book-card .info {
+  padding: 0.8rem 1rem 1rem 1rem;
+}
+
+.book-card .genre {
+  background: #ffe8d6;
+  color: #a52a2a;
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  display: inline-block;
+  margin-bottom: 0.6rem;
+}
+
+.book-card h2 {
+  font-size: 1.15rem;
+  color: #800000;
+  margin-bottom: 0.3rem;
+}
+
+.book-card p {
+  font-size: 0.9rem;
+  color: #5c3a2a;
+  line-height: 1.4;
+}
+
+.book-card a.read-more {
+  display: inline-block;
+  margin-top: 0.6rem;
+  background: #b22222;
+  color: #fff;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.book-card a.read-more:hover {
+  background: #d94f4f;
+}
+
+.download-confirmation {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 9999;
+  opacity: 0.95;
+}
+
+/* 🎄 Footer */
+footer {
+  background: linear-gradient(90deg, #b22222, #800000);
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 0.9rem;
+  border-top: 4px solid #d94f4f;
+}
+
+footer p {
+  margin: 0.4rem 0;
+  padding: 0 0.5rem;
+}
+
+footer a {
+  color: #fff6d3;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ❄️ Mobile tweaks: make layout scroll nicely and never overflow */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+header .logo img {
+    height: 35px;     /* slightly smaller on tablets */
+  }
+
+  header nav {
+    margin-top: 0.5rem;
+  }
+
+  .filter-bar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .book-card img {
+    max-height: 220px;
+  }
+
+  main {
+    padding: 0 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+header .logo img {
+    height: 30px;     /* smaller on mobile */
+  }
+
+  .filter-bar button {
+    font-size: 0.8rem;
+    padding: 7px 12px;
+  }
+
+  .book-card img {
+    max-height: 180px;
+  }
+
+  .book-card h2 {
+    font-size: 1rem;
+  }
+
+  .book-card p {
+    font-size: 0.85rem;
+  }
+
+  footer {
+    font-size: 0.85rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .book-card img {
+    max-height: 160px;
+  }
+
+  .filter-bar button {
+    min-width: 80px;
+    font-size: 0.75rem;
+  }
+
+  main h1 {
+    font-size: 1.8rem;
+  }
+}
