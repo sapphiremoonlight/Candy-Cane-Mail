@@ -3,12 +3,27 @@
 // ===================================
 
 const passwords = {
-  Stefan: "sunflower",
-  Damon: "chaoswine",
-  Bonnie: "witchy",
-  Elena: "historybuff",
-  Caroline: "partytime",
-  Elijah: "gentleman"
+  Naina: "folklore",
+  Roni: "blackswan",
+  Kyara: "everglow",
+  Zoe: "candycane",
+  Lu: "cozymist",
+  Aana: "littlemoon",
+  Star: "starglitter",
+  Sakshi: "pagewhisper",
+  Terechi: "radiowish",
+  Milena: "midnightviolet",
+  Estela: "booklight",
+  Jana: "warmnovember",
+  Jupiter: "orbitjoy",
+  Nala: "cozycandle",
+  Lottie: "moonbeam",
+  Lena: "frostpetal",
+  Aluene: "snowflake",
+  Irene: "pastelwish",
+  Rachel: "winterbloom",
+  Mina: "darkverse",
+  Ameerah: "vertigo"
 };
 
 // Grab DOM elements
