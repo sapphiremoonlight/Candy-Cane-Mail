@@ -3,7 +3,7 @@
 =================================== */
 @font-face {
   font-family: 'Last Christmas';
-  src: url('fonts/last-christmas.otf') format('truetype');
+  src: url('fonts/last-christmas.otf') format('opentype');
   font-display: swap;
 }
 
@@ -289,4 +289,5 @@ font-size:20px;
   .toolbar-btn { padding: 5px 8px; font-size: 0.85rem; }
   .email-card { padding: 16px; }
 }
+
 
