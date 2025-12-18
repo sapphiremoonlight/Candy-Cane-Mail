@@ -32,13 +32,13 @@ main {
 }
 
 h1 {
-  font-family: 'Candy Cane', cursive, sans-serif;
+  font-family: 'Candy Cane', sans-serif;
   text-align: center;
   margin: 0;
 }
 
 h2, h3 {
-  font-family: 'Candy Cane', serif;
+  font-family: 'Candy Cane', sans-serif;
 }
 
 .elf {
@@ -289,6 +289,7 @@ font-size:20px;
   .toolbar-btn { padding: 5px 8px; font-size: 0.85rem; }
   .email-card { padding: 16px; }
 }
+
 
 
 
