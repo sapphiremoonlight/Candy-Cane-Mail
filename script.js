@@ -14,7 +14,7 @@ const passwords = {
   Terechi: "radiowish",
   Milena: "midnightviolet",
   Estela: "booklight",
-  Jana: "warmnovember",
+  Jaan: "warmnovember",
   Jupiter: "orbitjoy",
   Nala: "cozycandle",
   Lottie: "moonbeam",
@@ -104,3 +104,4 @@ document.addEventListener("mousemove", (e) => {
 
   setTimeout(() => snow.remove(), 1000);
 });
+
