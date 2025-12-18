@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Candy Cane';
-  src: url('fonts/candy-candy.ttf') format('truetype');
+  src: url('fonts/candy-cane.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -289,5 +289,6 @@ font-size:20px;
   .toolbar-btn { padding: 5px 8px; font-size: 0.85rem; }
   .email-card { padding: 16px; }
 }
+
 
 
