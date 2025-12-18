@@ -23,7 +23,7 @@ const passwords = {
   Irene: "pastelwish",
   Rachel: "winterbloom",
   Mina: "darkverse",
-  Ameerah: "vertigo"
+  Ameera: "vertigo"
 };
 
 // Grab DOM elements
