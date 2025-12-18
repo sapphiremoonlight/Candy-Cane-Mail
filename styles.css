@@ -2,8 +2,14 @@
       FONT IMPORTS ✨
 =================================== */
 @font-face {
-  font-family: 'Santas Air Mail';
-  src: url('fonts/Santas-Air-Mail.ttf') format('truetype');
+  font-family: 'Last Christmas';
+  src: url('fonts/last-christmas.otf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Candy Cane';
+  src: url('fonts/candy-candy.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -11,7 +17,7 @@
       BODY & GLOBAL STYLES 🌎
 =================================== */
 body {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Last Christmas', cursive;
   background: linear-gradient(#fefefe, #f2e9e4);
   margin: 0;
   color: #333;
@@ -26,13 +32,13 @@ main {
 }
 
 h1 {
-  font-family: 'Santas Air Mail', cursive, sans-serif;
+  font-family: 'Candy Cane', cursive, sans-serif;
   text-align: center;
   margin: 0;
 }
 
 h2, h3 {
-  font-family: 'Mountains of Christmas', serif;
+  font-family: 'Candy Cane', serif;
 }
 
 .elf {
@@ -283,3 +289,4 @@ font-size:20px;
   .toolbar-btn { padding: 5px 8px; font-size: 0.85rem; }
   .email-card { padding: 16px; }
 }
+
