@@ -23,6 +23,8 @@ const passwords = {
   Irene: "pastelwish",
   Rachel: "winterbloom",
   Mina: "darkverse",
+  Kai: "inwonderland",
+  Angel: "softhalo",
   Ameera: "vertigo"
 };
 
@@ -104,4 +106,3 @@ document.addEventListener("mousemove", (e) => {
 
   setTimeout(() => snow.remove(), 1000);
 });
-
